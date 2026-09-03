@@ -74,4 +74,7 @@ Hardware Specifications
 
 
 ## License
-Distributed under the APACHE 2.0 License. See LICENSE for more information.
+Distributed under the APACHE 2.0-License. See LICENSE for more information.
+
+##
+Autor : Vladyslav Vytrykush
