@@ -1,0 +1,70 @@
+# ==========================================
+# Byte-compiled / optimized / DLL files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# ==========================================
+# C++ Build & Executable Artifacts
+# ==========================================
+bin/
+build/
+dist/
+out/
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.lib
+*.a
+
+# ==========================================
+# Environments & Virtual Ecosystems
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+python/
+.Python
+D:/Python311/
+
+# ==========================================
+# IDE & Code Editor Configs
+# ==========================================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# ==========================================
+# OS Generated Files & Temp Buffers
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+temp/
+tmp/
+*.log
+
+# ==========================================
+# MoSy Specific Exclusions (Large Binaries/Caches)
+# ==========================================
+*.zip
+*.tar.gz
+*.onnx.data
+# Note: mosy_policy.onnx is allowed because it is under 1MB.
