@@ -61,3 +61,15 @@
 - Bypassed PyTorch `torch.export` dynamic graph export failure (`GuardOnDataDependentSymNode`) by enforcing `dynamo=False` legacy TorchScript export.
 - Resolved `ModuleNotFoundError: No module named 'gym'` compatibility error by installing `shimmy` and legacy `gym<0.26.0` bindings.
 - Fixed Windows disk space allocation failure (`OSError: [Errno 28] No space left on device`) by redirecting pip cache and temporary directories to `D:\Python311\temp`.
+
+---
+
+## [0.6.0] - 2026-09-03
+### Added
+- Implemented `src/telemetry/serial_reader.py` for non-blocking UART telemetry packet parsing from ESP32-C3 microcontrollers over USB/Serial.
+- Added `config/joints.json` to manage joint calibration offsets, inversion flags, and motion bounds.
+- Added `requirements.txt` to define core Python dependencies (`onnxruntime`, `pyserial`, `numpy`).
+
+### Changed
+- Updated `README.md` with complete system architecture, clean hardware specifications, and project setup instructions.
+- Cleaned up local Git history and repository structure to prevent cache artifacts.
