@@ -83,3 +83,10 @@
 
 ### Changed
 - Refactored `main.py` into a fully integrated live 50 Hz control pipeline connecting `ESP32SerialReader` UART telemetry, `MoSyONNXEngine` AI inference, `ServoMapper`, and `PCA9685Driver`.
+
+
+---
+
+## [0.7.1] - 2026-09-04
+### Changed
+- Refactored `src/telemetry/bno055_mapper.py` to natively parse and normalize multi-segment Euler angle telemetry (`shoulder`, `forearm`, `hand`) directly from the **HS-1 motion capture suit** ESP32-C3 firmware into the 112-dimensional state vector.
