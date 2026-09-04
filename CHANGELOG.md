@@ -73,3 +73,13 @@
 ### Changed
 - Updated `README.md` with complete system architecture, clean hardware specifications, and project setup instructions.
 - Cleaned up local Git history and repository structure to prevent cache artifacts.
+
+
+---
+
+## [0.7.0] - 2026-09-04
+### Added
+- Implemented `src/kinematics/pca9685_driver.py` I2C hardware driver for 16-channel PWM servo control with dry-run fallback for headless simulation.
+
+### Changed
+- Refactored `main.py` into a fully integrated live 50 Hz control pipeline connecting `ESP32SerialReader` UART telemetry, `MoSyONNXEngine` AI inference, `ServoMapper`, and `PCA9685Driver`.
